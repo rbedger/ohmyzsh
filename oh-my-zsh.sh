@@ -1,4 +1,4 @@
-ZSH_THEME="jonathan" # https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+ZSH_THEME="wezm" # https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 HIST_STAMPS="mm/dd/yyyy" # "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd" | strftime function format specifications
 HYPHEN_INSENSITIVE="true" # Case-sensitive completion must be off. _ and - will be interchangeable.
 zstyle ':omz:update' mode disabled  # disabled | auto | reminder
