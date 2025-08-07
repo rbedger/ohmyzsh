@@ -1,3 +1,24 @@
+ZSH_THEME="jonathan" # https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+HIST_STAMPS="mm/dd/yyyy" # "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd" | strftime function format specifications
+HYPHEN_INSENSITIVE="true" # Case-sensitive completion must be off. _ and - will be interchangeable.
+zstyle ':omz:update' mode disabled  # disabled | auto | reminder
+COMPLETION_WAITING_DOTS="true" # true | <string to show>
+# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" ) # when not set themes are loaded from $ZSH/themes/
+# CASE_SENSITIVE="true"
+# zstyle ':omz:update' frequency 13
+# DISABLE_MAGIC_FUNCTIONS="true" # if pasting URLs and other text is messed up.
+# DISABLE_LS_COLORS="true"
+# DISABLE_AUTO_TITLE="true"
+# ENABLE_CORRECTION="true"
+# DISABLE_UNTRACKED_FILES_DIRTY="true"
+# ZSH_CUSTOM=/path/to/new-custom-folder
+#
+#
+# Standard  : $ZSH/plugins/
+# Custom    : $ZSH_CUSTOM/plugins/
+# Format    : plugins=(rails git textmate ruby lighthouse)
+# Add wisely, as too many plugins slow down shell startup.
+# plugins=(git)
 # ANSI formatting function (\033[<code>m)
 # 0: reset, 1: bold, 4: underline, 22: no bold, 24: no underline, 31: red, 33: yellow
 omz_f() {
